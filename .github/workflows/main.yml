@@ -34,6 +34,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             laryscristine/api-bootcamp-produto:latest
             laryscristine/api-bootcamp-produto:${{github.run_number}}
